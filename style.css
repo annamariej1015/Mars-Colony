@@ -159,42 +159,12 @@
 
 /*Things to Do Style*/
 
-.body{
-    font-family: Arial, Helvetica, sans-serif;
-    width: 100vw;
-    height: 100vw;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-.section{
-    padding: 100px 0;
-    background-color: #404040;
-}
-
-.heading{
-    font-family: Arial, Helvetica, sans-serif;
-    text-transform: uppercase;
-    font-size: 24px;
-    letter-spacing: 3px;
-    margin-bottom: 5rem;
-    text-align: center;
-    color: #333;
-    position: relative;
-    top: 20px;
-    left: 500px;
-}
 .flip-card-container{
     width: 300px;
     height: 400px;
     perspective: 1000px;
 }
-.card-wrapper{
-    display: flex;
-    align-items: center;
-    align-content: center;
-    flex-direction: column;
-}
+
 .flip-card{
     position: relative;
     width: 100%;
@@ -210,11 +180,11 @@
     position: absolute;
     width: 100%;
     height: 100%;
-    margin: 20px;
     backface-visibility: hidden;
     display: flex;
     justify-content: center;
     align-items: center;
+    backface-visibility: hidden;
     border-radius: 0.5rem;
 }
 
@@ -241,13 +211,14 @@
     margin: 1rem;
     font-size: 1.4rem;
     line-height: 1.5rem;
+    position: absolute;
 }
 
-.btn{
-    padding: 10px;
+.back-btn{
+    padding: 7px 5px;
     background-color: black;
-    border: none;
-    border-radius: 2rem;
+    border: 1px solid #fff;
+    border-radius: .2rem;
     margin: 4px 2px;
     text-transform: uppercase;
     text-align: center;
@@ -257,6 +228,8 @@
     transition: all .5s;
     display: inline-block;
     cursor: pointer;
+    margin-top: 30px;
+
 }
 
 .card .btn:hover{
@@ -267,24 +240,13 @@
     transform: translateY(0);
     box-shadow: none;
 }
-.
-.card1{
-    position: relative;
-    top:20px;
-    left:100px;
-}
-.card2{
-    position: relative;
-    top: 20px;
-    right: 200px;
 
-}
 
-*/
+
 /*FOOTER STYLE*/
 
 .footer{
-    background-color: white;
+    background-color: #282e34;
     height: 150px;
     width: 100%;
 }
@@ -293,5 +255,4 @@
     float: left;
     margin-top: 20px;
     margin-left: 200px;
-
 }
