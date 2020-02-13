@@ -270,6 +270,47 @@
 /*BOTTOM FOUR BOXES*/
 
 
+
+
+/*PLAN A TRIP*/
+
+
+.pimg-Trip, .pimg1-Trip, .pimg2-Trip, .pimg3-Trip, .pimg4-Trip{
+    position: relative;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+}
+
+.pimg-Trip{
+    background-image: url(./img/MOXIE.png);
+    min-height: 100%;
+}
+
+.pimg1-Trip{
+    background-image: url(./img/clothing.jpg);
+    min-height: 500px;
+}
+
+.pimg2-Trip{ 
+    background-image: url(./img/WAVAR.png);
+    min-height: 500px;
+}
+
+.pimg3-Trip{
+    background-image: url(./img/shelter-b.webp);
+    min-height: 500px;
+}
+
+.pimg4-Trip{
+    background-image: url(./img/FOOD.jpg);
+    min-height: 500px;
+}
+
+
+
+
 /*FOOTER STYLE*/
 
 .footer{
