@@ -11,30 +11,33 @@
 
 .dropdown{
     position: relative;
-    display:inline-block
+    display:inline-block;
+    color:#282e34;
 }
 
-/* .navbar-{ */
-    position: relative;
+/* .navbar{ 
+    /*position: relative;
     top: 20px;
     right: 550px;
     float: right;
-    display: inline-block;
+    display: inline-block;*/
     color:#282e34;
 }
 */
 .navbar-btn{
     position: relative;
+    background-color:#282e34;
     top: 20px;
     left: 500px;    
 }
 .dropbtn{
-    background-color:#404040;
+    background-color:#282e34;
     height: 65px;
     color:white;
     min-width: 300px;
     padding: 16px;
     font-size: 16px;
+    font-family: "lato, sans-serif";
     border: none;
     cursor: pointer;
     }
@@ -63,7 +66,7 @@
       background-color: #404040;
     }
 
-/*Main Content*/
+/*MAIN CONTENT-HOME PAGE*/
     body,html{
         height: 100%;
         margin:0;
@@ -76,7 +79,7 @@
 
 .pimg-Home, .pimg1, .pimg2, .pimg3{
     position: relative;
-    opacity: 0.70;
+    opacity: 0.80;
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -116,7 +119,7 @@
 
 .section-dark{
     background-color: #282e34;
-    color: #ddd;
+    color: #f4f4f4;
 }
 
 .ptext{
@@ -149,13 +152,23 @@
 
 
 /*Things to Do Style*/
-
+.info{
+    background-color: #282e34;
+    height: 80px;
+    text-align: center;
+    color: #f4f4f4;
+    font-weight: bold;
+    padding: 20px;
+}
 
 section{
+    background-image: linear-gradient(rgba(40, 46, 52, 0.7), rgba(40, 46, 52, 0.7)), url("./img/stars2.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
     height: 850px;
     width: 100%;
-    background-color: #404040;
-    /* padding: 75px; */
+    background-color: #282e34;
     display: flex;
     justify-content: space-around;
     flex-direction: row;
@@ -164,10 +177,10 @@ section{
 }
 
 .flip-card-container{
-    width: 30%;
-    height: 400px;
-    padding-top: 40px;
-    padding-left: 60px;
+    width: 33%;
+    height: 430px;
+    padding-top: 36px;
+    padding-left: 50px;
     padding-bottom: 20px;
     perspective: 1000px;
 }
@@ -197,11 +210,11 @@ section{
 
 .flip-card-front{
     background-color: #333;
-    color: #fff;
+    color: #f4f4f4;
 }
 
 .flip-card-back{
-    background-color: #282e34;
+    background-color: #666;
     columns: #f4f4f4;
     transform: rotateY(180deg);
 }
@@ -215,37 +228,11 @@ section{
 
 .flip-card-back-p{
     text-align: center;
-    margin: 1rem;
+    font-family: "Lato", sans-serif;
     font-size: 1.4rem;
     line-height: 1.5rem;
     position: absolute;
-}
-
-.back-btn{
-    padding: 7px 5px;
-    background-color: black;
-    border: 1px solid #fff;
-    border-radius: .2rem;
-    margin: 4px 2px;
-    text-transform: uppercase;
-    text-align: center;
-    text-decoration: none;
-    color: white;
-    font-size: 12px;
-    transition: all .5s;
-    display: inline-block;
-    cursor: pointer;
-    margin-top: 30px;
-
-}
-
-.card .btn:hover{
-    transform: translateY(-2px)
-    box-shadow: .5rem .5rem 2 rem rgba(0,0,0,0.2);
-}
-.card .btn:active{
-    transform: translateY(0);
-    box-shadow: none;
+    color: #f4f4f4
 }
 
 /*MAP SECTION*/
@@ -253,6 +240,7 @@ section{
     width: 100%;
     height: 500px;
     background-color: #f4f4f4;
+    margin-top: -8px;
 }
 .map-image{
     width: 600px;
@@ -279,35 +267,49 @@ section{
 .four-box{
     background-color: #666;
     width: 100%;
-    height: 800px;
+    height: 600px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: flex-start;
 }
 
 .v-image1{
     background-image: url(./img/ice-caps.jpg);
-    height: 200px;
+    height: 300px;
     width:50%;
     background-size: cover;
 }
 
 .v-image2{
     background-image: url(./img/Noctis-Labrinthus.jpg);
-    height: 200px;
+    height: 300px;
     width: 50%;
     background-size: cover;
 }
 
 .v-image3{
     background-image: url(./img/colorful-gullies.jpg);
-    height: 200px;
+    height: 300px;
     width: 50%;
     background-size: cover;
 }
 
 .v-image4{
     background-image: url(./img/summer-dunes.jpg);
-    height: 200px;
+    height: 300px;
     width: 50%;
     background-size: cover;
+}
+
+.vtext-box{
+    color: #282e34;
+    width: 65%;
+    height:40px;
+    font-family:"lato,sans-serif";
+    margin-top: 240px;
+    margin-left: 10px;
 }
 
 
@@ -324,17 +326,17 @@ section{
 
 .pimg-Trip{
     background-image: url(./img/MOXIE.png);
-    min-height: 100%;
+    min-height: 150%;
 }
 
 .pimg1-Trip{
     background-image: url(./img/clothing.jpg);
-    min-height: 500px;
+    min-height: 1183px;
 }
 
 .pimg2-Trip{ 
     background-image: url(./img/WAVAR.png);
-    min-height: 500px;
+    min-height: 664px;
 }
 
 .pimg3-Trip{
@@ -344,32 +346,81 @@ section{
 
 .pimg4-Trip{
     background-image: url(./img/FOOD.jpg);
-    min-height: 500px;
+    min-height: 630px;
 }
 
-/* CONTACT PAGE */
+.section2{
+    text-align: center;
+    padding: 50px 80px;
+}
 
-/* GOOGLE MAPS */
+.section-light2{
+    background-color: #f4f4f4;
+    color:#666
+}
 
+.section-dark2{
+    background-color: #282e34;
+    color: #ddd;
+    margin-top: -9px;
+}
+
+/* CONTACT */
+
+/* CONTACT IMAGE */
+
+.contact-box{
+    background-color: #282e34;
+    height: 1000px;
+    width: 100%x;
+}
+
+
+/* CONTACT INFO */
+.contact-container{
+    height:1000px;
+    width: 100%;
+    position: absolute;
+}
+.contact-img{
+
+    background-image: linear-gradient(rgba(244, 244, 244, 0.3), rgba(244, 244, 244, 0.3)), url("./img/P08-We-Need-You-NASA-Recruitment-Poster.jpg");
+    height: 956px;
+    width: 425px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    top: 28px;
+    left: 100px;
+}
+
+/* CONTACT MAP*/
+.contact-map{
+    position: relative;
+    float: right;
+    top: -820px;
+    right: 72px;
+}
+
+.contact-column{
+    position: absolute;
+}
 
 /*FOOTER STYLE*/
 
 .footer{
     background-color: #282e34;
-    height: 150px;
+    height: 100px;
     width: 100%;
 }
 
 .footer-item{
-    
     float: left;
     margin-top: 20px;
     margin-left: 200px;
-
 }
 .icons{
     font-size: 20px;
     color: #f4f4f4;
-
-
 }
