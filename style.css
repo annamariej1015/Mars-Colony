@@ -139,8 +139,8 @@
     padding: 20px;
 }
 
-.ptext .border.trans{
-    background-color: transparent;
+ .ptext .border-trans{ 
+     background-color: transparent;
 }
 
 @media(max-width: 586px){
@@ -262,6 +262,16 @@ section{
     top: -508px;
     left: 620px;
 }
+
+.column-header{
+    font-size: 16px;
+    font-family: "lato, sans-serif";
+
+}
+.column-para{
+    font-size: 14px;
+    font-family: "lato, san-serif";
+}
 /*BOTTOM FOUR BOXES*/
 
 .four-box{
@@ -304,7 +314,8 @@ section{
 }
 
 .vtext-box{
-    color: #282e34;
+    color: black;
+    font-weight: bold;
     width: 65%;
     height:40px;
     font-family:"lato,sans-serif";
