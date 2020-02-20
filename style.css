@@ -9,6 +9,9 @@
     height: 65px;
 }
 
+.logo{
+    background-image: url(./logo.png);
+}
 .dropdown{
     position: relative;
     display:inline-block;
@@ -239,27 +242,27 @@ section{
 .map-section{
     width: 100%;
     height: 500px;
-    background-color: #f4f4f4;
+    background-color: #282e34;
     margin-top: -8px;
 }
 .map-image{
     width: 600px;
     height: 460px;
     padding: 0px;
-    margin: 10px;
+    margin: 18px;
     position: relative;
 }
 
 .column-map{
-    background-color: #f4f4f4;
+    background-color: #282e34;
     display: inline-block;
-    color: #282e34;
+    color: #f4f4f4;
     width: 600px;
     height: 460px;
-    padding: 10px;
-    margin: 20px;
+    padding: 6px;
+    margin: 13px;
     position: relative;
-    top: -508px;
+    top: -499px;
     left: 620px;
 }
 
